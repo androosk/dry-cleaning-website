@@ -1,27 +1,19 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://cocky-almeida-099ca0.netlify.app">
-    <img alt="Tirpok Cleaners Logo" src="https://github.com/androosk/dry-cleaning-website/blob/main/src/images/tirpok-logo.png" width="60" />
+    <img alt="Tirpok Cleaners Logo" src="https://github.com/androosk/dry-cleaning-website/blob/main/src/images/tirpok-logo.png" width="100" />
   </a>
 </p>
 <h1 align="center">
   Tirpok Cleaners Website Build
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+## Frameworks
+  - GatsbyJS
+  - ReactJS
+  - Tailwind CSS
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
-
-## 🚀 Quick start
-
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the default starter.
-
-    ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
+Website for Tirpok Cleaners in Hunterdon County New Jersey
 
 1.  **Start developing.**
 
