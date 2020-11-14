@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
