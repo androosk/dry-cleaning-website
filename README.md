@@ -1,11 +1,11 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://cocky-almeida-099ca0.netlify.app">
+    <img alt="Tirpok Cleaners Logo" src="https://github.com/androosk/dry-cleaning-website/blob/main/src/images/tirpok-logo.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Tirpok Cleaners Website Build
 </h1>
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
