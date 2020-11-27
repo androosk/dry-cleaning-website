@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import TirpokLogo from '../images/tirpok-logo.png'
 
-const Navbar = () => (
+const NavDark = () => (
     <div className="lg:px-16 px-6 flex flex-wrap items-center lg:py-0 py-2">
       <div className="flex-1 flex justify-between items-center">
         <img className="h-20 m-2 float-left" src={TirpokLogo} alt="hanger with text tirpok more than just a cleaners" />
@@ -13,7 +13,7 @@ const Navbar = () => (
       <input type="checkbox" className="hidden" id="menu-toggle" />
       <div className="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
         <nav>
-          <ul className="lg:flex items-center justify-between text-base text-white pt-4 lg:pt-0">
+          <ul className="lg:flex items-center justify-between text-base text-black pt-4 lg:pt-0">
             <li>
               <Link to ='/' className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-orange-400 font-sans">About Us</Link>
             </li>
@@ -36,4 +36,4 @@ const Navbar = () => (
 
 )
 
-export default Navbar;
+export default NavDark;
