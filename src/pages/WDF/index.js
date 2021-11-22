@@ -13,7 +13,7 @@ const WDF = () => {
           <p className="font-montserrat text-xl">Five minutes to pick up</p>
         </div>
         <div>
-          <img src={Laundry} alt="girl reclining in laundry basket"/>
+          <img className="w-" src={Laundry} alt="girl reclining in laundry basket"/>
         </div>
       </div>
     </div>
