@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://cocky-almeida-099ca0.netlify.app" target="_blank">
-    <img alt="Tirpok Cleaners Logo" src="https://github.com/androosk/dry-cleaning-website/blob/main/src/images/tirpok-logo.png" width="150" />
+    <img alt="Tirpok Cleaners Logo" src="https://github.com/androosk/dry-cleaning-website/blob/main/src/assets/tirpok-logo.png" width="150" />
   </a>
 </p>
 <h1 align="center">
