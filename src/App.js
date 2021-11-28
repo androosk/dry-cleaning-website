@@ -1,13 +1,15 @@
-import Clothes from './assets/clothes.mp4'
-import Navbar from './components/Navbar'
-import WDF from './pages/WDF'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Clothes from './assets/clothes.mp4';
+import Navbar from './components/Navbar';
+import WDF from './pages/WDF';
+import OurServices from './pages/wedo';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
       <Router>
         <Navbar />
         <WDF />
+        <OurServices />
         <video
           autoPlay
           loop
