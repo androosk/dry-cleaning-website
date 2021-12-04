@@ -14,8 +14,8 @@ const Navbar = () => {
     }
   }
 
-  const initial = 'transition-all lg:px-16 px-6 flex flex-wrap items-center lg:py-0 py-2 fixed w-full z-10 top-0'
-  const active = 'transition-all lg:px-16 px-6 flex flex-wrap items-center lg:py-0 py-2 fixed w-full z-10 top-0 bg-primary'
+  const initial = 'transition lg:px-16 px-6 flex flex-wrap items-center lg:py-0 py-2 fixed w-full z-10 top-0'
+  const active = 'transition duration-500 lg:px-16 px-6 flex flex-wrap items-center lg:py-0 py-2 fixed w-full z-10 top-0 bg-primary bg-opacity-80'
 
   window.addEventListener('scroll', changeBackground)
 
