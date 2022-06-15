@@ -5,6 +5,7 @@ import TirpokLogo from '../../assets/tirpok-logo.png'
 const Navbar = () => {
 
   const [navBar, setNavbar] = useState(false)
+  const [hamburger, setHamburger] = useState(false)
 
   const changeBackground = () => {
     if(window.scrollY >= 80) {
@@ -19,13 +20,23 @@ const Navbar = () => {
 
   window.addEventListener('scroll', changeBackground)
 
+  const handleClick = () => {
+    if(hamburger) {
+      setHamburger(!hamburger)
+      console.log('yo tamborger')
+    } else {
+    setHamburger(!hamburger)
+    console.log('da button was clicked')
+    }
+  }
+
   return (
     <div className={navBar ? active : initial}>
       <div className="flex-1 flex justify-between items-center">
         <img className="h-20 m-2 float-left" src={TirpokLogo} alt="hanger with text tirpok more than just a cleaners" />
       </div>
 
-      <label htmlFor="menu-toggle" className="cursor-pointer lg:hidden block"><svg className="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg>
+      <label htmlFor="menu-toggle" className="cursor-pointer lg:hidden block"><svg className="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" onClick={handleClick}><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg>
       </label>
       <input type="checkbox" className="hidden" id="menu-toggle" />
       <div className="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
